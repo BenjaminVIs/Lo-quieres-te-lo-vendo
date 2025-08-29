@@ -1,0 +1,45 @@
+#Titulo{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#Extracto{
+    text-align: center;
+}
+
+#Terminos{
+    background-color: rgb(65, 80, 220);
+    text-align: center;
+    font-style: oblique;
+    color: white;
+
+    border: 1px solid #000; /* Borde negro de 1 píxel */
+    word-wrap: break-word; /* Permite que las palabras se rompan si son demasiado largas */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    display: flex;
+      
+}
+
+#Pie{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    display: flex; /* Habilita Flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    
+}
+
+body{
+    background-image: url('../assets/img/img-fondo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+.container{
+    color: aliceblue;
+}
+

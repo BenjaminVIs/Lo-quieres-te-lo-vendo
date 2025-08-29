@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ES"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadisticas</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/style_2.css">
+</head>
+<body>
+        <div class= "container",id="Titulo">
+        <h1 style="font-family: Arial; font-size: 70px;">Lo quieres, te lo vendo</h1>
+    </div>
+
+    <div id="Terminos">
+        <h2 style="font-family: Arial; font-size: 20px;">INICIO  |  CONTACTO |  ESTADISTICAS</h2>
+    </div>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+    <div class="container">
+        <table id="miTabla" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Producto</th>
+                    <th>Categoría</th>
+                    <th>Precio</th>
+                    <th>Stock</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>Teclado</td><td>Electrónica</td><td>$25</td><td>15</td></tr>
+                <tr><td>2</td><td>Mouse</td><td>Electrónica</td><td>$10</td><td>30</td></tr>
+                <tr><td>3</td><td>Cuaderno</td><td>Papelería</td><td>$3</td><td>50</td></tr>
+                <tr><td>4</td><td>Lápiz</td><td>Papelería</td><td>$1</td><td>100</td></tr>
+                <tr><td>5</td><td>Monitor</td><td>Electrónica</td><td>$120</td><td>8</td></tr>
+                <tr><td>6</td><td>Mochila</td><td>Accesorios</td><td>$35</td><td>20</td></tr>
+                <tr><td>7</td><td>Botella</td><td>Accesorios</td><td>$8</td><td>40</td></tr>
+                <tr><td>8</td><td>Calculadora</td><td>Electrónica</td><td>$18</td><td>12</td></tr>
+                <tr><td>9</td><td>Regla</td><td>Papelería</td><td>$2</td><td>60</td></tr>
+                <tr><td>10</td><td>Audífonos</td><td>Electrónica</td><td>$45</td><td>10</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+    $(document).ready(function() {
+        $('#miTabla').DataTable();
+    });
+    </script>
+
+    
+
+
+    <div id="Pie">
+        <center><footer>©Benjamin Vidal - Darío Meza | 2025</footer></center>
+    </div>
+
+    <script>src="/assets/funciones.js"</script>
+    
+    
+</body>
+</html>

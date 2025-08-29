@@ -1,0 +1,16 @@
+body{
+    background-image: url('../assets/img/img-fondo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    width: 100vw;
+}
