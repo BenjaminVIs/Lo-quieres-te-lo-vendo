@@ -1,9 +1,4 @@
-/**
- * Valida los campos del formulario de contacto y muestra alertas si hay campos vacíos.
- * Este script debe enlazarse en el HTML antes de la etiqueta </body>:
- * <script src="assets/funciones.js"></script>
- */
-
+// Función para validar el formulario antes de enviarlo
 document.addEventListener('DOMContentLoaded', function () {
     const form = document.querySelector('form');
     if (!form) return;
